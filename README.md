@@ -12,19 +12,16 @@ A Computer Vision application that lets you draw digits in the air using a color
 
 Ensure you have Python 3.8+ installed. Install the necessary packages via pip:
 
-Bash
-'''pip install opencv-python numpy tensorflow matplotlib'''
+pip install opencv-python numpy tensorflow matplotlib
 
 ## Quick Start Guide
 
 ### 1. Train the Model
 Run the training script to fetch the MNIST dataset, train the CNN, and save digit_identify.keras:
 
-Bash
-'''python train_mnist.py'''
+python train_mnist.py
 
 ### 2. Launch the Air Canvas App
 Ensure your webcam is connected, then start the main application:
 
-Bash
-'''python cv2_thing.py'''
+python cv2_thing.py
